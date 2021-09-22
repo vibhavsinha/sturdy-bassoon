@@ -166,8 +166,7 @@
             video.addEventListener('webkitneedkey', onneedkey, false);
             video.addEventListener('error', onerror, false);
             // ADAPT: there must be logic here to fetch/build the appropriate m3u8 URL
-            video.src = './fps-ctr/h264_master.m3u8';
-            // video.src = './output/master.m3u8';
+            video.src = './output/master.m3u8';
         }
 
         function onerror(event) {
